@@ -6,7 +6,6 @@ while attempts < 5:
 
     if entered_pin == pin:
         print("\nLogin Successful!")
-
         while True:
             print("\n===== ATM MENU =====")
             print("1. Check Balance")
