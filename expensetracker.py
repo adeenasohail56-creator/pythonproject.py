@@ -9,8 +9,6 @@ def add_expense():
     }
     expenses.append(expense)
     print("Expense added successfully!")
-
-
 def view_expenses():
     if len(expenses) == 0:
         print("No expenses found.")
