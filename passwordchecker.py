@@ -1,5 +1,4 @@
 password = input("Enter your password: ")
-
 strength = 0
 
 if len(password) >= 8:
