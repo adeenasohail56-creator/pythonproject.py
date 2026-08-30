@@ -2,10 +2,8 @@
 print("="*30)
 print("   STUDENT GRADE CHECKER")
 print("="*30)
-
 student_name = input("Enter student name: ").strip().title()
 student_marks = int(input("Enter student marks out of 100: "))
-
 # 1. Marks validation
 if student_marks < 0 or student_marks > 100:
     print("\nError: Marks must be between 0 to 100")
