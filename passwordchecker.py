@@ -3,7 +3,6 @@ strength = 0
 
 if len(password) >= 8:
     strength += 1
-
 if any(char.isdigit() for char in password):
     strength += 1
 
