@@ -11,7 +11,6 @@ if any(char.isupper() for char in password):
 
 if any(char in "!@#$%^&*()" for char in password):
     strength += 1
-
 print("\nPassword Analysis")
 
 if strength == 4:
