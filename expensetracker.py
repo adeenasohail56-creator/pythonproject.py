@@ -1,5 +1,4 @@
 expenses = []
-
 def add_expense():
     amount = float(input("Enter expense amount: "))
     category = input("Enter expense category: ")
