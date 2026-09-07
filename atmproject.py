@@ -12,7 +12,6 @@ while attempts < 5:
             print("3. Withdraw Money")
             print("4. Exit")
             choice = input("Choose an option: ")
-
             if choice == "1":
                 print(f"Your Balance: Rs.{balance}")
 
