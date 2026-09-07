@@ -18,8 +18,6 @@ def view_expenses():
             print("Amount:", expense["amount"])
             print("Category:", expense["category"])
             print("--------------------")
-
-
 def show_total():
     total = 0
 
