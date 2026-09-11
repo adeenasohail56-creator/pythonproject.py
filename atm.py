@@ -3,7 +3,6 @@ class ATM:
         self.balance = balance
         self.pin = "1234"
         self.attempts = 5
-
     def login(self):
         while self.attempts > 0:
             entered_pin = input("Enter PIN: ")
