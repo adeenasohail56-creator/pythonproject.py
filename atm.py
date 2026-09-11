@@ -11,7 +11,6 @@ class ATM:
                 print("Login Successful!")
                 self.menu()
                 return
-
             self.attempts -= 1
             print("Wrong PIN")
             print("Attempts Left:", self.attempts)
