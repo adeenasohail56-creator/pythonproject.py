@@ -15,7 +15,6 @@ class ATM:
             print("Attempts Left:", self.attempts)
 
         print("Account Blocked!")
-
     def menu(self):
         while True:
             print("\n1. Check Balance")
