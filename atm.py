@@ -13,7 +13,6 @@ class ATM:
             self.attempts -= 1
             print("Wrong PIN")
             print("Attempts Left:", self.attempts)
-
         print("Account Blocked!")
     def menu(self):
         while True:
@@ -21,7 +20,6 @@ class ATM:
             print("2. Deposit")
             print("3. Withdraw")
             print("4. Exit")
-
             choice = input("Choose Option: ")
 
             if choice == "1":
