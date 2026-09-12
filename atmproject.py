@@ -14,7 +14,6 @@ while attempts < 5:
             choice = input("Choose an option: ")
             if choice == "1":
                 print(f"Your Balance: Rs.{balance}")
-
             elif choice == "2":
                 amount = float(input("Enter amount to deposit: "))
                 balance += amount
