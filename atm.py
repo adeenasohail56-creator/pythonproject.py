@@ -6,7 +6,6 @@ class ATM:
     def login(self):
         while self.attempts > 0:
             entered_pin = input("Enter PIN: ")
-
             if entered_pin == self.pin:
                 print("Login Successful!")
                 self.menu()
