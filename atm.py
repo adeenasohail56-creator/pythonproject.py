@@ -21,7 +21,6 @@ class ATM:
             print("3. Withdraw")
             print("4. Exit")
             choice = input("Choose Option: ")
-
             if choice == "1":
                 print("Current Balance:", self.balance)
 
