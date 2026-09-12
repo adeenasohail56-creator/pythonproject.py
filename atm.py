@@ -23,7 +23,6 @@ class ATM:
             choice = input("Choose Option: ")
             if choice == "1":
                 print("Current Balance:", self.balance)
-
             elif choice == "2":
                 amount = float(input("Enter Deposit Amount: "))
                 self.balance += amount
