@@ -4,7 +4,7 @@ def add_expense():
     category = input("Enter expense category: ")
     expense = {
         "amount": amount,
-        "category": category
+"category": category
     }
     expenses.append(expense)
     print("Expense added successfully!")
