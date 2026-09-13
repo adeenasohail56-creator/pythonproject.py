@@ -6,7 +6,6 @@ def add_expense():
         "amount": amount,
         "category": category
     }
-    
     expenses.append(expense)
     print("Expense added successfully!")
 def view_expenses():
