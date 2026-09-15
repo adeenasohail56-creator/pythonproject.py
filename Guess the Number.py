@@ -1,4 +1,5 @@
 import random
+
 secret_number = random.randint(1, 100)
 attempts = 0
 print("Welcome to the Number Guessing Game!")
