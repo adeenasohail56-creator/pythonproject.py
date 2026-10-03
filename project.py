@@ -1,5 +1,6 @@
 # Student Grade Checker
 print("="*30)
+
 print("   STUDENT GRADE CHECKER")
 print("="*30)
 student_name = input("Enter student name: ").strip().title()
